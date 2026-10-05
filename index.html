@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kadiyam Akhil Sai Charan - responsive CSE student portfolio">
+  <title>Akhil Sai Charan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Akhil Sai Charan home">
+        <span class="brand-mark">ASC</span>
+        <span>AKHIL<span>SAI</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CSE STUDENT • DEVELOPER • LEARNER</p>
+        <h1>KADIYAM<br><span>AKHIL SAI CHARAN</span></h1>
+        <p class="hero-text">
+          I build clean, responsive web experiences while developing my skills in
+          C, C++, web technologies and problem solving.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="projects.html">View Projects</a>
+          <a class="btn secondary" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal" aria-label="Profile summary">
+        <div class="profile-orbit">
+          <div class="profile-placeholder">ASC</div>
+        </div>
+        <div>
+          <p class="card-label">CURRENTLY</p>
+          <h2>B.Tech CSE</h2>
+          <p>2nd Year • SASI Institute of Technology and Engineering</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">TASK 02</p>
+        <h2>Advanced CSS3 & Responsive Architecture</h2>
+        <p>Designed with CSS Grid, Flexbox, variables, animations and mobile-first media queries.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal"><span>01</span><h3>CSS Grid</h3><p>Structured two-dimensional layouts for sections, cards and responsive content.</p></article>
+        <article class="feature-card reveal"><span>02</span><h3>Flexbox</h3><p>Flexible alignment for navigation, buttons, skill groups and components.</p></article>
+        <article class="feature-card reveal"><span>03</span><h3>Responsive</h3><p>Mobile-first breakpoints adapt the portfolio to phones, tablets and desktops.</p></article>
+        <article class="feature-card reveal"><span>04</span><h3>Theme System</h3><p>CSS custom properties power a smooth light/dark visual system.</p></article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container stats-grid">
+        <div class="stat reveal"><strong>2nd</strong><span>Year CSE</span></div>
+        <div class="stat reveal"><strong>3+</strong><span>Core Skills</span></div>
+        <div class="stat reveal"><strong>100%</strong><span>Responsive Goal</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Kadiyam Akhil Sai Charan</p>
+      <p>SASI Institute of Technology and Engineering</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

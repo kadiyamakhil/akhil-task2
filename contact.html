@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Kadiyam Akhil Sai Charan">
+  <title>Contact | Akhil Sai Charan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">ASC</span><span>AKHIL<span>SAI</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="contact.html">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container reveal">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h1>Let's Connect</h1>
+      <p>Use the form for a front-end demonstration, or replace the links below with your actual contact details.</p>
+    </section>
+
+    <section class="section container contact-grid">
+      <form class="contact-form panel reveal" id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+
+      <aside class="panel reveal">
+        <p class="card-label">PROFILE</p>
+        <h2>Kadiyam Akhil Sai Charan</h2>
+        <p>CSE Student • Web Technology Learner</p>
+        <div class="contact-list">
+          <a href="projects.html">Projects</a>
+          <a href="about.html">Education & Skills</a>
+          <a href="index.html">Portfolio Home</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Kadiyam Akhil Sai Charan</p><p>SASI Institute of Technology and Engineering</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
